@@ -1,0 +1,61 @@
+.container h1{
+    font-size: 80px;
+    font-weight: 500;
+    color:#0563bb;
+}
+.about-heading{
+    text-align: center;
+    font-size: 50px;
+    color: #0563bb;
+    border-bottom: 1px solid #0563bb;
+}
+.resume-about p{
+    text-align: center;
+    font-size: 20px;
+    color: #535c68;
+}
+.skill-heading{
+    text-align: center;
+    font-size: 50px;
+    color: #0563bb;
+    border-bottom: 1px solid #0563bb;
+}
+.skills ul{
+    margin-left: 90px;
+}
+.skills ul li{
+    list-style-type:  none;
+    font-size: 20px;
+    color: #535c68;
+    margin-top: 5px;
+}
+.skills ul li span{
+    color:#0563bb ;
+    margin-right: 10px;
+}
+.edu-head{
+    text-align: center;
+    font-size: 50px;
+    color: #0563bb;
+    border-bottom: 1px solid #0563bb;
+    margin-top: 25px;
+}
+.edu-sec ul{
+    margin-left: 30px;
+}
+.edu-sec ul li{
+    color: #222f3e;
+    margin-top: 20px;
+    list-style:none;
+    font-size: 18px;
+}
+.edu-place ul li,
+.edu-course ul li{
+    margin-top: 20px;
+    list-style:none;
+    font-size: 18px;
+    color: #535c68;
+}
+.container{
+    margin-bottom: 30px;
+}

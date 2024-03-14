@@ -1,0 +1,91 @@
+/* .img-sec img{
+    height: 150px;
+} */
+.img-sec{
+    height: 150px;
+    width: 260px;
+}
+.image-img1{
+    height: 100%;
+    width: 100%;
+    background: url(../image/ShopperApp.png) center;
+    overflow: hidden;
+}
+.image-img2{
+    height: 100%;
+    width: 100%;
+    background: url(../image/WeatherApp.png) center;
+    overflow: hidden;
+}
+.image-img3{
+    height: 100%;
+    width: 100%;
+    background: url(../image/QRCode.png) center;
+    overflow: hidden;
+}
+.image-img4{
+    height: 100%;
+    width: 100%;
+    background: url(../image/ProfileCard.png) center;
+    overflow: hidden;
+}
+.image-img5{
+    height: 100%;
+    width: 100%;
+    background: url(../image/PortfolioWebPage.png) center;
+    overflow: hidden;
+}
+.image-img6{
+    height: 100%;
+    width: 100%;
+    background: url(../image/PortfolioWebSite.png) center;
+    overflow: hidden;
+}
+.image-img7{
+    height: 100%;
+    width: 100%;
+    background: url(../image/loginForm.png) center;
+    overflow: hidden;
+}
+.image-img8{
+    height: 100%;
+    width: 100%;
+    background: url(../image/EmployeeList.png) center;
+    overflow: hidden;
+}
+.image-img9{
+    height: 100%;
+    width: 100%;
+    background: url(../image/EcommerceWebSite.png) center;
+    overflow: hidden;
+}
+.image-img10{
+    height: 100%;
+    width: 100%;
+    background: url(../image/BMICalculator.png) center;
+    overflow: hidden;
+}
+.project-sec{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background:#c8d6e5;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+    margin: 20px;
+}
+.project-sec:hover{
+    transform: scale(1.1);
+    opacity: 75%;
+}
+.project-sec h4{
+    margin-top: 5px;
+    color: #0abde3;
+    text-align: center;
+}
+.project-sec a{
+    color: #48dbfb;
+    font-size: 30px;
+    text-align: center;
+}
+.project-sec a:hover{
+    color: #222f3e;
+}

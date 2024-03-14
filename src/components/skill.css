@@ -1,0 +1,33 @@
+.icon-image{
+    font-size: 70px;
+    color: #0563bb;
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    box-shadow: #0563bb 0px 0px 0px 3px;
+    margin: 20px; 
+    border-radius: 10px;
+    transition: transform 0.3s ease;  
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box h3{
+    color: #747d8c;
+    text-align: center;
+}
+.box p{
+    color:#2f3542;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #0563bb;
+}
+

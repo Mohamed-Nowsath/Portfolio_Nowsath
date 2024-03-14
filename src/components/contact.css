@@ -1,0 +1,76 @@
+.image img{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.image img:hover{
+    opacity: 75%;
+    transform: scale(1.1);
+}
+.phone{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.address{
+    margin-top: 50px;
+}
+.email{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.phone .phone-icon,
+.address .address-icon,
+.email .email-icon{
+    font-size: 50px;
+    color: #1e90ff;
+    text-align: center;
+}
+.phone .phone-icon:hover,
+.address .address-icon:hover,
+.email .email-icon:hover{
+    color: #71b4f7;
+}
+.phone h6,
+.address p,
+.email p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #a4b0be;
+    margin-bottom: 80px;
+}
+.contact-details ul{
+    list-style: none;
+    display: inline;
+    margin-top: 20px;
+}
+.contact-details ul li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #1e90ff;
+    border-radius: 50%;
+    height:50px ;
+    width: 50px;
+    background: #1e90ff;
+    transition: 0.5s;
+}
+.contact-details ul li a{
+    color: #fff;
+}
+.contact-details ul li:hover{
+    transform: translatey(-5px);
+    background: transparent;
+}
+.contact-details ul li a:hover{
+    color:#1e90ff ;
+}
+.contact-details ul{
+    margin-left: 250px;
+}
